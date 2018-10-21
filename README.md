@@ -36,6 +36,6 @@ Para instalar los requerimientos en un entorno virtual de Python:
 *Coming soon...*
 
 
-### TODO:
+## TODO:
 - Checar issues en el repo
 - ¿Alguno extra?
