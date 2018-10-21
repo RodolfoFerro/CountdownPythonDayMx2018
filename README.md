@@ -16,7 +16,7 @@ Dejaré la `app.py` para el server en Flask ya hecho, que renderice solamente el
 
 A continuación te ofrecemos dos sencillas instalaciones de requerimientos para tu sistema, con [*pip*](https://pip.pypa.io/en/stable/installing/) y con [*Anaconda*](https://www.anaconda.com/download/).
 
-#### Instalación con `pip` y `virtualenv`
+### Instalación con `pip` y `virtualenv`
 
 Para instalar los requerimientos en un entorno virtual de Python:
 
@@ -31,7 +31,7 @@ Para instalar los requerimientos en un entorno virtual de Python:
     # Instalar requerimientos
     $ pip install -r requirements.txt
 
-#### Instalación con `conda env`
+### Instalación con `conda env`
 
 *Coming soon...*
 
