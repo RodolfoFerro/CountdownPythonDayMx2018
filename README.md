@@ -13,3 +13,9 @@ Dejaré la `app.py` para el server en Flask ya hecho, que renderice solamente el
 ### TODO:
 - Checar issues en el repo
 - ¿Alguno extra?
+- [] Generar un requirements.txt
+- [] Instrucciones con Anaconda
+- [] Estructurar el repositorio
+- [] Crear el contador principal
+
+
