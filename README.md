@@ -12,6 +12,11 @@ La idea es crear un backend sencillo con [Flask](http://flask.pocoo.org/) para d
 
 Dejaré la `app.py` para el server en Flask ya hecho, que renderice solamente el archivo `index.html` (el cual estará vacío). Cualquier contribución es bienvenida mediante un *Pull Request*.
 
+### TODO:
+- Checar issues en el repo
+- ¿Alguno extra?
+
+
 ## Instalación
 
 A continuación te ofrecemos dos sencillas instalaciones de requerimientos para tu sistema, con [*pip*](https://pip.pypa.io/en/stable/installing/) y con [*Anaconda*](https://www.anaconda.com/download/).
@@ -34,8 +39,3 @@ Para instalar los requerimientos en un entorno virtual de Python:
 ### Instalación con `conda env`
 
 *Coming soon...*
-
-
-## TODO:
-- Checar issues en el repo
-- ¿Alguno extra?
