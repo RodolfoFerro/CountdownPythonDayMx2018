@@ -9,16 +9,16 @@ app = Flask(__name__)
 message = 'Hot Wells'
 pythonDay = time.strptime('30 11 18 8' ,'%d %m %y %H' )
 tiempoActual = time.time()
-timepoFaltante =time.mktime(pythonDay)- tiempoActual
-dias = int(timepoFaltante/(3600*24))
-horas  = int( timepoFaltante/3600- dias*24)
-minutos  = int( timepoFaltante/60- dias*24*60 - horas*60 )
-segundos  = int( timepoFaltante- dias*24*3600 - horas*3600-minutos*60 )
+tiempoFaltante =time.mktime(pythonDay)- tiempoActual
+dias = int(tiempoFaltante/(3600*24))
+horas  = int( tiempoFaltante/3600- dias*24)
+minutos  = int( tiempoFaltante/60- dias*24*60 - horas*60 )
+segundos  = int( tiempoFaltante- dias*24*3600 - horas*3600-minutos*60 )
 
 # Render index:
 @app.route('/')
 def index():
-    while(5<7):
+    if(tiempoFaltante>1):
         pythonDay = time.strptime('30 11 18 8' ,'%d %m %y %H' )
         tiempoActual = time.time()
         timepoFaltante =time.mktime(pythonDay)- tiempoActual
