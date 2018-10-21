@@ -12,6 +12,21 @@ La idea es crear un backend sencillo con [Flask](http://flask.pocoo.org/) para d
 
 Dejaré la `app.py` para el server en Flask ya hecho, que renderice solamente el archivo `index.html` (el cual estará vacío). Cualquier contribución es bienvenida mediante un *Pull Request*.
 
+## Instalar:
+
+Instalar los requerimientos en un entorno virtual de Python:
+
+    # Clonar el repositorio
+    $ git clone git@github.com:RodolfoFerro/CountdownPythonDayMx2018.git
+    $ cd CountdownPythonDayMx2018
+
+    # Crear el entorno virtual
+    $ virtualenv env
+    $ source env/bin/activate
+
+    # Instalar requerimientos
+    $ pip install -r requirements.txt
+
 ### TODO:
 - Checar issues en el repo
 - ¿Alguno extra?
