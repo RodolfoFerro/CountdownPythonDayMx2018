@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #e6e8ea;
+
+    color: #444;
+}
+
+.hero {
+    width: 100%;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    text-align: center;
+    font-size: 5vw;
+
+    background-image: url('https://papercallio-production.s3.amazonaws.com/uploads/event/logo/1339/PyMX.png');
+    background-size: 150px 150px;
+    background-blend-mode: color;
+    background-color: rgba(52,58,64, .9);
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-blue {
+    color: #366e9d;
+}
+
+.text-yellow {
+    color: #ffce3e;
+}
+
+.text-whitesmoke {
+    color: whitesmoke;
+}
+
+.container {
+    width: 80%;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+hr {
+    height:3px; 
+    border:none; 
+    color:#366e9d; 
+    background-color:#366e9d;
+}
+
+footer {
+    background-color: #ffce3e;
+    color: #444;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    border-top: 3px #366e9d solid;
+}
