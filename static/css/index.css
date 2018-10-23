@@ -79,6 +79,16 @@ hr {
     background-color:#366e9d;
 }
 
+.navbar {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0, 0.2);
+} 
+
+.navbar-brand {
+    color: white;
+}
+
 footer {
     background-color: #ffce3e;
     color: #444;
