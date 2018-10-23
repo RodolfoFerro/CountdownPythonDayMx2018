@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: #ffce3e;
 }
 
 body {
@@ -10,14 +11,27 @@ body {
     color: #444;
 }
 
+.fecha{
+  padding-top:  10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.title{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .hero {
     width: 100%;
 
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     text-align: center;
-    font-size: 5vw;
+    font-size: 9vw;
 
     background-image: url('https://papercallio-production.s3.amazonaws.com/uploads/event/logo/1339/PyMX.png');
     background-size: 150px 150px;
@@ -42,7 +56,12 @@ a {
     color: whitesmoke;
 }
 
+.info{
+  font-size: 15px;
+}
+
 .container {
+    padding-top:  10px;
     width: 80%;
 
     padding-left: 10%;
@@ -54,9 +73,9 @@ a {
 }
 
 hr {
-    height:3px; 
-    border:none; 
-    color:#366e9d; 
+    height:3px;
+    border:none;
+    color:#366e9d;
     background-color:#366e9d;
 }
 
@@ -67,4 +86,18 @@ footer {
     padding-bottom: 1em;
 
     border-top: 3px #366e9d solid;
+}
+
+@media (max-width:767px) {
+    .hero {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width:1199px) {
+    .hero {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
 }
