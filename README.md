@@ -34,7 +34,7 @@ Para instalar los requerimientos en un entorno virtual de Python:
     $ source env/bin/activate
 
     # Instalar requerimientos
-    $ pip install -r requirements.txt
+    $ pip install -r src/requirements/base.txt
 
 ### Instalación con `conda env`
 
