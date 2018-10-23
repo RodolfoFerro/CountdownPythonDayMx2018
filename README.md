@@ -39,3 +39,11 @@ Para instalar los requerimientos en un entorno virtual de Python:
 ### Instalación con `conda env`
 
 *Coming soon...*
+
+### Instalación con `Docker`
+
+Es necesario tener [Docker](https://docs.docker.com/engine/installation/) y [Docker Compose](https://docs.docker.com/compose/install/) instalados previamente
+
+    $ docker-compose up
+
+Abrir navegador en ```0.0.0.0:8000```

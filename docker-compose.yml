@@ -1,0 +1,26 @@
+version: "2"
+services:
+    ngninx_CountdownPythonDay2018:
+        image: nginx:latest
+        container_name: "${PROJECT_NAME}_nginx"
+        ports:
+            - "8000:8000"
+        volumes:
+            - .:/src
+            - ./static:/src/static
+            - ./templates:/src/templates
+            - ./nginx:/etc/nginx/conf.d
+        depends_on:
+            - flask
+    flask:
+        build: .
+        hostname: "${PROJECT_NAME}_flask"
+        container_name: "${PROJECT_NAME}_flask"
+        command: bash -c "gunicorn --reload app:app -b 0.0.0.0:8000"
+        volumes:
+            - .:/src
+            - ./static:/src/static
+            - ./templates:/src/templates
+
+        expose:
+            - "8000"
