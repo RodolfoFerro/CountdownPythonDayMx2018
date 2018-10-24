@@ -6,9 +6,7 @@ services:
         ports:
             - "8000:8000"
         volumes:
-            - .:/src
-            - ./static:/src/static
-            - ./templates:/src/templates
+            - ./src/:/src
             - ./nginx:/etc/nginx/conf.d
         depends_on:
             - flask
@@ -18,9 +16,7 @@ services:
         container_name: "${PROJECT_NAME}_flask"
         command: bash -c "gunicorn --reload app:app -b 0.0.0.0:8000"
         volumes:
-            - .:/src
-            - ./static:/src/static
-            - ./templates:/src/templates
+            - ./src/:/src
 
         expose:
             - "8000"
