@@ -38,7 +38,15 @@ Para instalar los requerimientos en un entorno virtual de Python:
 
 ### Instalación con `conda env`
 
-*Coming soon...*
+    # Clonar el repositorio
+    $ git clone git@github.com:RodolfoFerro/CountdownPythonDayMx2018.git
+    $ cd CountdownPythonDayMx2018
+
+    # Crear el entorno conda
+    $ conda env create -f src/environment.yml
+    
+    # Activar el entorno conda
+    $ conda activate countdown_pymx_2018
 
 ### Instalación con `Docker`
 
