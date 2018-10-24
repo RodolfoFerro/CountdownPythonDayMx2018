@@ -1,0 +1,7 @@
+name: countdown_pymx_2018
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - flask=1.0.2
+  - gunicorn=19.6.0
