@@ -6,7 +6,7 @@ services:
         ports:
             - "8000:8000"
         volumes:
-            - ./src/:/src
+            - ./src/:/var/www/html
             - ./nginx:/etc/nginx/conf.d
         depends_on:
             - flask
