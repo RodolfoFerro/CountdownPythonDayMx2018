@@ -2,11 +2,11 @@ body, html {
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #ffce3e;
+    background-color: #366e9d;
 }
 
 body {
-    background-color: #e6e8ea;
+    background-color: #366e9d;
 
     color: #444;
 }
@@ -16,6 +16,7 @@ body {
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -31,7 +32,7 @@ body {
     padding-bottom: 2em;
 
     text-align: center;
-    font-size: 9vw;
+    font-size: 8vw;
 
     background-image: url('https://papercallio-production.s3.amazonaws.com/uploads/event/logo/1339/PyMX.png');
     background-size: 150px 150px;
@@ -46,22 +47,29 @@ a {
 
 .text-blue {
     color: #366e9d;
+    font-family: 'Raleway', sans-serif;
 }
 
 .text-yellow {
     color: #ffce3e;
+    font-family: 'Raleway', sans-serif;
 }
 
 .text-whitesmoke {
     color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
 }
 
 .info{
-  font-size: 15px;
+  background-image: linear-gradient(#4C4C4C,#366e9d);
+  padding: 15px;
+  --border-top: 10px #4C4C4C solid;
+  color: whitesmoke;
+
 }
 
 .container {
-    padding-top:  10px;
+    padding-top:  20px;
     width: 80%;
 
     padding-left: 10%;
@@ -83,7 +91,7 @@ hr {
     position: absolute;
     width: 100%;
     background: rgba(0,0,0, 0.2);
-} 
+}
 
 .navbar-brand {
     color: white;
